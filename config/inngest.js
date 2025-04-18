@@ -1,6 +1,7 @@
 import { Inngest } from "inngest";
 import connectDb from "@/lib/connectDb";
-import User from '../../models/User'; // adjust based on relative path from inngest.js
+import User from '../models/User';
+ // adjust based on relative path from inngest.js
 
 
 // ✅ CREATE CLIENT WITH ID
