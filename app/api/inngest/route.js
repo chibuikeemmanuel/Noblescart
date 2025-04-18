@@ -1,4 +1,5 @@
-import { syncUserUpdation } from "@/config/inngest";
+import { syncUserUpdate } from "@/config/inngest"; // ✅ This matches the actual export
+
 
 import { inngest, syncUserCreation, syncUserDeletion, syncUserUpdation} from "@/config/inngest";
 
